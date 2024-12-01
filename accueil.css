@@ -327,5 +327,21 @@ hr{
         margin: 0 20px;
     }
 }
+@media screen and (max-width: 768px) {
+    #section1 {
+        height: auto;
+        background-attachment: scroll; /* Suppression de l'effet fixed */
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #titreExplicative {
+        flex-direction: column;
+        padding-left: 20px;
+        width: 90%;
+        height: auto;
+    }
 
 }

@@ -125,6 +125,36 @@ header h2{
     flex-direction: column;
     align-items: flex-end;
 }
-
 }
+    /* Optimisation pour les smartphones */
+@media screen and (max-width: 768px) {
+    .fondFlou {
+        height: 45px;
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .textNav {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding-bottom: 20px !important;
+        padding-top: 20px;
+    }
+
+    #titrePageEnConstruction {
+        padding-top: 40vh;
+        font-size: 18px;
+    }
+}
+
+
 
